@@ -15,7 +15,14 @@ vuvi/
 ├── feed.xml                   ← RSS 2.0, 10 статей
 ├── llms.txt                   ← краткий индекс для LLM/ИИ-краулеров
 ├── og-image.png               ← 1200×630, картинка для соцсетей и OG-разметки
+├── favicon.svg                ← векторная иконка: современные браузеры и закреплённые вкладки
+├── favicon.ico                ← 16/32/48, старые браузеры и выдача поисковиков
+├── favicon-16x16.png          ← PNG-иконка 16×16
+├── favicon-32x32.png          ← PNG-иконка 32×32
+├── icon-192.png               ← иконка 192×192 для манифеста
+├── icon-512.png               ← иконка 512×512 для манифеста
 ├── apple-touch-icon.png       ← 180×180, иконка для iOS
+├── site.webmanifest           ← манифест: имя, цвета, набор иконок
 ├── CNAME                      ← кастомный домен для GitHub Pages (vuvi.org)
 ├── .nojekyll                  ← отключает сборку Jekyll на GitHub Pages
 ├── README.md
@@ -50,6 +57,7 @@ vuvi/
 | Правила обхода | `robots.txt` | разрешено всё, явно разрешены GPTBot, ClaudeBot, PerplexityBot и др. |
 | RSS | `feed.xml` + `<link rel="alternate" type="application/rss+xml">` | 10 статей, даты в RFC 822 |
 | Соцсети/превью | `og-image.png`, `apple-touch-icon.png` | абсолютные URL, чтобы работали и из подпапок |
+| Иконки сайта | `favicon.svg`, `favicon.ico`, `favicon-16x16.png`, `favicon-32x32.png`, `icon-192.png`, `icon-512.png`, `site.webmanifest` | подключены на каждой странице (`manifest` — для установки на домашний экран) |
 | Тема браузера | `theme-color` | светлая `#0b7a55`, тёмная `#161819` |
 | 404 | `404.html` | `noindex, follow` + ссылки на статьи |
 
@@ -60,19 +68,39 @@ vuvi/
 
 ### GitHub Pages (текущий вариант)
 
-1. Изменения уходят в ветку `main` репозитория `roxappdev/vuvi`.
-2. GitHub Pages публикует её из корня (`/`) — файл `.nojekyll` отключает Jekyll,
-   чтобы папки `blog/<slug>/` отдавались как есть.
-3. Файл `CNAME` содержит `vuvi.org`: в настройках репозитория
-   (Settings → Pages → Custom domain) домен подхватывается автоматически.
-4. В DNS у домена должны быть записи:
+Репозиторий: <https://github.com/roxappdev/vuvi>, сайт: <https://vuvi.org/>.
+Pages уже настроен: источник — ветка `main`, папка `/`, кастомный домен
+`vuvi.org` (из файла `CNAME`), сертификат выдан, **Enforce HTTPS** включён,
+HTTP-запросы отдают `301` на HTTPS.
+
+Публикация изменений:
+
+```
+git add -A
+git commit -m "текст коммита"
+git push
+```
+
+Учётные данные для push лежат вне репозитория — в файле
+`~/.config/gh/vuvi-push-credentials` (права `600`), он подключён как
+`credential.https://github.com.helper` в локальном `.git/config`.
+Токен должен иметь право записи в `roxappdev/vuvi` (fine-grained: `Contents: Read and write`,
+либо классический PAT со scope `repo`).
+
+Настройки со стороны репозитория и DNS (если понадобится пересоздать Pages):
+
+1. Settings → Pages → Source: `Deploy from a branch`, ветка `main`, папка `/`.
+   Файл `.nojekyll` отключает Jekyll, чтобы папки `blog/<slug>/` отдавались как есть.
+2. Custom domain: `vuvi.org` (дублируется файлом `CNAME`), затем **Enforce HTTPS**.
+3. DNS у домена:
    - `A` для `vuvi.org` → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
    - `AAAA` (по желанию) → `2606:50c0:8000::153`, `2606:50c0:8001::153`,
      `2606:50c0:8002::153`, `2606:50c0:8003::153`
    - `CNAME` для `www` → `roxappdev.github.io`
-5. После проверки домена включите **Enforce HTTPS**.
-6. Откройте `https://vuvi.org/robots.txt`, `https://vuvi.org/sitemap.xml`,
-   `https://vuvi.org/feed.xml` — все три должны отдавать содержимое, а не 404.
+4. Проверка после публикации: `https://vuvi.org/robots.txt`,
+   `https://vuvi.org/sitemap.xml`, `https://vuvi.org/feed.xml`,
+   `https://vuvi.org/404.html` и любая статья — должны отдавать `200`.
+   Несуществующий адрес должен отдавать `404` со страницей `404.html`.
 
 ### Свой сервер
 
