@@ -1,0 +1,32 @@
+# robots.txt for https://vuvi.org
+# Practical guides for making presentations with AI.
+
+User-agent: *
+Allow: /
+
+# Explicitly welcome the major AI crawlers — this site is meant to be quotable.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://vuvi.org/sitemap.xml

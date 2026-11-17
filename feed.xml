@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vuvi.org — Making presentations with AI</title>
+    <link>https://vuvi.org/</link>
+    <description>Practical, no-hype guides on creating presentations with AI: real workflows, copy-paste prompts, honest tool advice. For people who present at work.</description>
+    <language>en</language>
+    <copyright>© 2026 vuvi.org</copyright>
+    <lastBuildDate>Sun, 15 Nov 2026 09:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vuvi.org/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>8 Mistakes People Make with AI Presentations</title>
+      <link>https://vuvi.org/blog/ai-presentation-mistakes/</link>
+      <guid isPermaLink="true">https://vuvi.org/blog/ai-presentation-mistakes/</guid>
+      <pubDate>Sun, 15 Nov 2026 09:00:00 +0000</pubDate>
+      <description>The eight failure modes of AI decks — each with its symptom, its cause, and the fix in practice — plus the 60-second self-audit before any deck ships.</description>
+    </item>
+    <item>
+      <title>One Deck, Ten Assets: Repurposing Presentations with AI</title>
+      <link>https://vuvi.org/blog/repurpose-one-deck-many-assets/</link>
+      <guid isPermaLink="true">https://vuvi.org/blog/repurpose-one-deck-many-assets/</guid>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0000</pubDate>
+      <description>Eight prompts that turn a finished deck into memos, emails, posts and FAQs — one source of truth, consistent numbers everywhere, no rewriting from memory.</description>
+    </item>
+    <item>
+      <title>Use AI for Speaker Notes, Rehearsals and Q&amp;A Prep</title>
+      <link>https://vuvi.org/blog/ai-speaker-notes-qa-prep/</link>
+      <guid isPermaLink="true">https://vuvi.org/blog/ai-speaker-notes-qa-prep/</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0000</pubDate>
+      <description>Notes in your voice, three rounds of rehearsal against a machine audience, and the Q&amp;A bank built before anyone asks — including the three honest "I don't know" forms.</description>
+    </item>
+    <item>
+      <title>Design Mistakes AI Still Makes (and Quick Fixes)</title>
+      <link>https://vuvi.org/blog/fix-ai-slide-design/</link>
+      <guid isPermaLink="true">https://vuvi.org/blog/fix-ai-slide-design/</guid>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0000</pubDate>
+      <description>Five fixes with the biggest visual return — bullets, hierarchy, imagery, consistency, charts — a 15-minute order of operations, and the chart-type table that ends pie-chart abuse.</description>
+    </item>
+    <item>
+      <title>The Human Pass: How to Edit AI-Generated Slides</title>
+      <link>https://vuvi.org/blog/edit-ai-generated-slides/</link>
+      <guid isPermaLink="true">https://vuvi.org/blog/edit-ai-generated-slides/</guid>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0000</pubDate>
+      <description>The 25-minute edit pass, in leverage order: story first, then specificity, deletion, verification, read-aloud — with the so-what test and a label-vs-takeaway title table.</description>
+    </item>
+    <item>
+      <title>10 Prompt Templates for Every Presentation Type</title>
+      <link>https://vuvi.org/blog/prompt-templates-by-type/</link>
+      <guid isPermaLink="true">https://vuvi.org/blog/prompt-templates-by-type/</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0000</pubDate>
+      <description>Fill-in-the-blank prompts for sales decks, QBRs, kickoffs, training, talks, demos, investor updates, webinars, proposals and all-hands — each with when to use, how to adapt, what to check.</description>
+    </item>
+    <item>
+      <title>How to Turn a Document into a Presentation with AI</title>
+      <link>https://vuvi.org/blog/turn-documents-into-slides/</link>
+      <guid isPermaLink="true">https://vuvi.org/blog/turn-documents-into-slides/</guid>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0000</pubDate>
+      <description>The four-step method for turning a 12-page report into a 10-slide deck: prepare, extract, filter, compress — with the prompts, a worked example, and the paraphrase-trap check.</description>
+    </item>
+    <item>
+      <title>AI Presentation Tools Compared: What Each One Is Actually Good At</title>
+      <link>https://vuvi.org/blog/ai-presentation-tools-compared/</link>
+      <guid isPermaLink="true">https://vuvi.org/blog/ai-presentation-tools-compared/</guid>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0000</pubDate>
+      <description>Chat AIs, Gamma, Copilot, Canva, Beautiful.ai, Plus AI, Napkin — what each is good at, four selection scenarios, the day-one export test, and what none of them do.</description>
+    </item>
+    <item>
+      <title>The Prompt Formula: How to Ask AI for Slides That Actually Work</title>
+      <link>https://vuvi.org/blog/prompt-formula-for-slides/</link>
+      <guid isPermaLink="true">https://vuvi.org/blog/prompt-formula-for-slides/</guid>
+      <pubDate>Wed, 16 Sep 2026 09:00:00 +0000</pubDate>
+      <description>A seven-part prompt formula with a symptom-to-fix troubleshooting table, one topic × three audiences, and the ten follow-up prompts that do the real work.</description>
+    </item>
+    <item>
+      <title>My 30-Minute Workflow for Creating a Presentation with AI</title>
+      <link>https://vuvi.org/blog/ai-presentation-workflow/</link>
+      <guid isPermaLink="true">https://vuvi.org/blog/ai-presentation-workflow/</guid>
+      <pubDate>Tue, 08 Sep 2026 09:00:00 +0000</pubDate>
+      <description>The three-pass system — brief, outline, slides — with the full prompt set, a worked example with an honest time log, and the three ways the workflow itself breaks.</description>
+    </item>
+  </channel>
+</rss>

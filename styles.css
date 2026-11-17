@@ -1,0 +1,63 @@
+/* vuvi.org — single stylesheet for the whole site. No build step. */
+:root{
+  --bg:#fbfaf7; --card:#ffffff; --text:#22211e; --muted:#6f6d66;
+  --accent:#0b7a55; --accent-dark:#096347; --border:#e7e4dc;
+  --code-bg:#1d1f21; --code-text:#e4e4e4; --inline-bg:#f0eee6;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#161819; --card:#1e2123; --text:#e8e6e1; --muted:#9b988f;
+    --accent:#3ecf94; --accent-dark:#7ddfb2; --border:#2c2f31;
+    --code-bg:#111214; --code-text:#dcdcdc; --inline-bg:#262a2c;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+main,header.site-header,footer{max-width:720px;margin:0 auto;padding:0 20px}
+header.site-header{padding-top:28px;padding-bottom:6px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.home-link{font-weight:700;color:var(--text);text-decoration:none;font-size:18px}
+a.home-link:hover{color:var(--accent)}
+.tagline{color:var(--muted);font-size:15px}
+footer{border-top:1px solid var(--border);margin-top:56px;margin-bottom:44px;padding-top:18px;color:var(--muted);font-size:14px}
+a{color:var(--accent)}
+a:hover{color:var(--accent-dark)}
+
+/* Homepage */
+.hero{padding:34px 0 8px}
+.hero h1{font-size:34px;line-height:1.2;margin:0 0 14px}
+.hero p{color:var(--muted);font-size:18px;margin:0}
+.list-title{font-size:14px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:44px 0 4px;font-weight:600}
+.post-list{list-style:none;margin:0;padding:0}
+.post-list li{padding:22px 0;border-bottom:1px solid var(--border)}
+.post-list li:last-child{border-bottom:0}
+.post-title{font-size:20px;font-weight:600;color:var(--text);text-decoration:none;line-height:1.35}
+.post-title:hover{color:var(--accent)}
+.badge{display:inline-block;font-size:12px;font-weight:600;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:1px 9px;margin-left:8px;vertical-align:2px}
+.meta{color:var(--muted);font-size:14px;margin:6px 0 8px}
+.excerpt{margin:0}
+
+/* Article */
+.backlink{font-size:15px;margin:30px 0 0}
+article h1{font-size:32px;line-height:1.25;margin:10px 0 6px}
+article h2{font-size:23px;line-height:1.3;margin:38px 0 12px}
+article h3{font-size:19px;line-height:1.35;margin:28px 0 8px}
+article ul,article ol{padding-left:24px}
+article li{margin:7px 0}
+pre{
+  background:var(--code-bg);color:var(--code-text);
+  padding:16px 18px;border-radius:10px;overflow-x:auto;
+  font-size:14px;line-height:1.55;white-space:pre-wrap;word-break:break-word;
+}
+pre code{background:none;padding:0;color:inherit}
+code{background:var(--inline-bg);padding:2px 6px;border-radius:5px;font-size:.88em}
+blockquote{margin:20px 0;padding:2px 18px;border-left:3px solid var(--accent);color:var(--muted)}
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;margin:22px 0;font-size:15px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.05em}
+.post-nav{display:flex;justify-content:space-between;gap:16px;margin:44px 0 0;padding-top:18px;border-top:1px solid var(--border);font-size:15px}
+.post-nav .next{margin-left:auto;text-align:right}

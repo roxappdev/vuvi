@@ -1,0 +1,28 @@
+# vuvi.org
+
+> Practical, no-hype guides on making presentations with AI: real workflows, copy-paste prompts, and honest tool advice for people who present at work. Static HTML, no JavaScript, no tracking.
+
+Canonical domain: https://vuvi.org
+Language: English
+Feed: https://vuvi.org/feed.xml
+Sitemap: https://vuvi.org/sitemap.xml
+
+## Start here
+
+- [My 30-Minute Workflow for Creating a Presentation with AI](https://vuvi.org/blog/ai-presentation-workflow/): The three-pass system — brief, outline, slides — with the full prompt set, a worked example with an honest time log, and the three ways the workflow breaks.
+- [The Prompt Formula: How to Ask AI for Slides That Actually Work](https://vuvi.org/blog/prompt-formula-for-slides/): A seven-part prompt formula with a symptom-to-fix troubleshooting table, one topic × three audiences, and the ten follow-up prompts that do the real work.
+
+## Guides
+
+- [8 Mistakes People Make with AI Presentations](https://vuvi.org/blog/ai-presentation-mistakes/): The eight failure modes of AI decks — symptom, cause, fix — plus the 60-second self-audit before any deck ships.
+- [One Deck, Ten Assets: Repurposing Presentations with AI](https://vuvi.org/blog/repurpose-one-deck-many-assets/): Eight prompts that turn a finished deck into memos, emails, posts and FAQs from one source of truth.
+- [Use AI for Speaker Notes, Rehearsals and Q&A Prep](https://vuvi.org/blog/ai-speaker-notes-qa-prep/): Notes in your voice, rehearsal against a machine audience, and a Q&A bank built before anyone asks.
+- [Design Mistakes AI Still Makes (and Quick Fixes)](https://vuvi.org/blog/fix-ai-slide-design/): Five design fixes with the biggest visual return, a 15-minute order of operations, and a chart-type table.
+- [The Human Pass: How to Edit AI-Generated Slides](https://vuvi.org/blog/edit-ai-generated-slides/): The 25-minute edit pass in leverage order — story, specificity, deletion, verification, read-aloud.
+- [10 Prompt Templates for Every Presentation Type](https://vuvi.org/blog/prompt-templates-by-type/): Fill-in-the-blank prompts for sales decks, QBRs, kickoffs, training, talks, demos, investor updates, webinars, proposals and all-hands.
+- [How to Turn a Document into a Presentation with AI](https://vuvi.org/blog/turn-documents-into-slides/): The four-step method for turning a long report into a 10-slide deck: prepare, extract, filter, compress.
+- [AI Presentation Tools Compared: What Each One Is Actually Good At](https://vuvi.org/blog/ai-presentation-tools-compared/): Chat AIs, Gamma, Copilot, Canva, Beautiful.ai, Plus AI, Napkin — strengths, selection scenarios, the export test.
+
+## Optional
+
+- [RSS feed](https://vuvi.org/feed.xml): All articles, newest first.

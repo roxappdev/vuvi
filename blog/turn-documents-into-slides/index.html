@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How to Turn a Document into a Presentation with AI — vuvi.org</title>
+  <meta name="description" content="The four-step method for turning a 12-page report into a 10-slide deck: prepare, extract, filter, compress. Includes the exact prompts, a worked example, and the pre-flight checklist.">
+  <meta name="author" content="vuvi.org">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://vuvi.org/blog/turn-documents-into-slides/">
+  <link rel="alternate" hreflang="en" href="https://vuvi.org/blog/turn-documents-into-slides/">
+  <link rel="alternate" hreflang="x-default" href="https://vuvi.org/blog/turn-documents-into-slides/">
+  <link rel="alternate" type="application/rss+xml" title="vuvi.org — all articles" href="https://vuvi.org/feed.xml">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://vuvi.org/apple-touch-icon.png">
+  <meta name="theme-color" content="#0b7a55" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#161819" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="vuvi.org">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://vuvi.org/blog/turn-documents-into-slides/">
+  <meta property="og:title" content="How to Turn a Document into a Presentation with AI">
+  <meta property="og:description" content="The four-step method for turning a 12-page report into a 10-slide deck: prepare, extract, filter, compress. Includes the exact prompts, a worked example, and the pre-flight checklist.">
+  <meta property="article:published_time" content="2026-10-06">
+  <meta property="article:modified_time" content="2026-10-06">
+  <meta property="article:section" content="AI presentations">
+  <meta property="og:image" content="https://vuvi.org/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="vuvi.org — practical guides for making presentations with AI">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to Turn a Document into a Presentation with AI">
+  <meta name="twitter:description" content="The four-step method for turning a 12-page report into a 10-slide deck: prepare, extract, filter, compress. Includes the exact prompts, a worked example, and the pre-flight checklist.">
+  <meta name="twitter:image" content="https://vuvi.org/og-image.png">
+  <meta name="twitter:image:alt" content="vuvi.org — practical guides for making presentations with AI">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vuvi.org/blog/turn-documents-into-slides/#article",
+      "headline": "How to Turn a Document into a Presentation with AI",
+      "name": "How to Turn a Document into a Presentation with AI",
+      "description": "The four-step method for turning a 12-page report into a 10-slide deck: prepare, extract, filter, compress. Includes the exact prompts, a worked example, and the pre-flight checklist.",
+      "url": "https://vuvi.org/blog/turn-documents-into-slides/",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://vuvi.org/blog/turn-documents-into-slides/"
+      },
+      "datePublished": "2026-10-06",
+      "dateModified": "2026-10-06",
+      "inLanguage": "en",
+      "author": {
+        "@type": "Organization",
+        "name": "vuvi.org",
+        "url": "https://vuvi.org/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "vuvi.org",
+        "url": "https://vuvi.org/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://vuvi.org/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://vuvi.org/og-image.png",
+        "width": 1200,
+        "height": 630
+      },
+      "isPartOf": {
+        "@type": "Blog",
+        "@id": "https://vuvi.org/#blog"
+      },
+      "articleSection": "AI presentations",
+      "timeRequired": "PT14M"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://vuvi.org/blog/turn-documents-into-slides/#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://vuvi.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "How to Turn a Document into a Presentation with AI",
+          "item": "https://vuvi.org/blog/turn-documents-into-slides/"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%F0%9F%93%8A%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="site-header">
+    <a class="home-link" href="../../">vuvi.org</a>
+    <span class="tagline">Making presentations with AI</span>
+  </header>
+  <main>
+    <article>
+      <p class="backlink"><a href="../../">← All articles</a></p>
+      <h1>How to Turn a Document into a Presentation with AI</h1>
+      <p class="meta">October 6, 2026 · 14 min read</p>
+
+      <p>The most common slide job at work is not "present an idea" — it's "turn this 12-page report into something I can present on Thursday". AI is genuinely good at this, but only if you run it as <strong>extraction first, slides second</strong>. Ask for slides straight from a raw document and you get a deck that compresses the document's structure instead of its meaning: every section becomes a slide, every hedge survives into the bullets, and the point of the report drowns in fidelity. The deck ends up as long as the document and says less.</p>
+      <p>The four steps below take 30–40 minutes for a typical report, and most of that time goes into the two middle steps — the ones people skip. Each step has a specific prompt, and the prompts are meant to be copied.</p>
+
+      <h2>When this works — and when it doesn't</h2>
+      <p>This method works for documents that contain conclusions: reports, status updates, specs with recommendations, research summaries, meeting notes with decisions. It works badly for documents that don't: a half-finished draft, a data dump without analysis, a policy text where the "conclusion" is a legal sentence. If the document doesn't know what it thinks, no prompt will find it — extract what's there, then write the position yourself, or the deck will inherit the document's fog.</p>
+      <p>It also works badly when the document is already slide-shaped — a deck someone exported to PDF, a bulleted memo. Those don't need extraction; they need editing, and pretending otherwise produces a deck that's a worse copy of a worse deck.</p>
+
+      <h2>Step 1: Prepare the source (2 minutes)</h2>
+      <p>Strip what the AI doesn't need: repeated headers and footers, disclaimers, signature blocks, old status tables, the appendix of raw data. Garbage in the document becomes decorative bullets in the deck — the model treats everything you give it as material, and it doesn't know your boilerplate from your findings.</p>
+      <p>Length is the real constraint. Most chat AIs accept file uploads and will process documents far past 30 pages, but quality sags on long inputs: extraction starts missing items, and the "numbers" it quotes drift from the source. Two fixes, both reliable. Either summarize the key sections yourself in a paragraph and feed that, or process the document chapter by chapter and merge the results at the outline stage. The second takes ten more minutes and preserves everything; for a document that matters, pay the ten minutes.</p>
+
+      <h2>Step 2: Extract before you present (5 minutes)</h2>
+      <p>The first prompt asks for a list, not slides:</p>
+      <pre><code>From this document, extract:
+- every decision made or recommended
+- every number that supports or contradicts those decisions
+- open risks and who owns them
+- anything the document asks of the reader
+
+Format: bullets, each with the section it came from.
+Do not write slides yet.</code></pre>
+      <p>For a 12-page Q3 report, the output of this step might look like (abridged):</p>
+      <ul>
+        <li>Decision: pause paid expansion in region C pending unit-cost fix (§3)</li>
+        <li>Number: region C cost per acquisition rose 38% QoQ, now 2.1× blended average (§3, table 4)</li>
+        <li>Risk: churn in segment B concentrated in month-2 cohort; owner: CS lead (§5)</li>
+        <li>Ask: approve reallocation of $120k from paid to retention (§6)</li>
+      </ul>
+      <p>This step exists because you need to know what the document actually contains — including the part where page 9 quietly contradicts page 3. Cheap to learn from a list; expensive to learn in front of an audience. It also changes the AI's role for everything that follows: once it has extracted, it's selecting from a list you've read, instead of summarizing prose you haven't. Selection is where decks get good; summarizing is where they get long.</p>
+
+      <h2>Step 3: Filter for the audience (3 minutes)</h2>
+      <pre><code>The audience is [who]. They already know [what] and they care about [what].
+From the extracted points, propose a 10-slide outline that leads with
+what changed and what you recommend. Push background and methodology
+into an appendix section at the end.</code></pre>
+      <p>Same document, different audiences, different decks — and the extraction list makes the differences concrete instead of abstract. For the Q3 report above:</p>
+      <ul>
+        <li><strong>Leadership:</strong> leads with the decision and the $120k ask; region C economics reduced to one slide; churn detail to appendix.</li>
+        <li><strong>The delivery team:</strong> leads with the churn pattern and what changes for them Monday; the budget ask is one bullet at the end, because it's context, not their action.</li>
+        <li><strong>A client-facing version:</strong> the internal cost numbers disappear entirely; what survives is what changed for them and what they should do next.</li>
+      </ul>
+      <p>Notice the client version: filtering is also a confidentiality pass. The extraction list includes everything in the document, and deciding what the audience should not see is a step you do consciously, not something the AI infers. When in doubt, generate the internal version first and derive the external one from it — the <a href="../repurpose-one-deck-many-assets/">repurposing method</a> applies directly.</p>
+
+      <h2>Step 4: Generate and compress without guilt</h2>
+      <p>Rule of thumb: ten pages of report become two to three slides. That feels like destruction the first time, so it helps to be explicit about what goes where:</p>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Document content</th><th>Where it goes in the deck</th></tr></thead>
+        <tbody>
+          <tr><td>Decisions and recommendations</td><td>Slides — usually the first three</td></tr>
+          <tr><td>The numbers that carry the argument</td><td>Slides, one number per claim, in the title or the one bullet</td></tr>
+          <tr><td>Methodology, data collection, caveats</td><td>Appendix — one slide, linked for questions</td></tr>
+          <tr><td>History and background</td><td>One line of context, or the speaker notes</td></tr>
+          <tr><td>Everything else that's true but not load-bearing</td><td>Speaker notes — written once, so you can answer instead of improvising</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>A slide is not a page with fewer words. A slide is the conclusion the page supports. Keep that sentence in mind and compression stops feeling like loss — the detail isn't gone, it moved to the notes and the appendix, which is where detail belongs in a live presentation anyway.</p>
+
+      <h2>Handling contradictions and gaps</h2>
+      <p>Extraction will surface them; your job is to resolve them before the outline, not to present around them. When page 9's churn rate disagrees with page 3's, add to the extraction prompt: <em>"Flag any numbers that conflict with each other, with their section references."</em> Then either fix the document's error (best), or present the more defensible number and keep the discrepancy in your notes — someone in the room has read page 3, and being the person who noticed is worth more than being the person whose deck disagrees with itself.</p>
+      <p>Gaps work the same way: the document asks for a decision but doesn't price the options, for example. That becomes a <code>[NEED DATA]</code> marker in the outline, filled by you from the source system, never by the AI's imagination. The <a href="../prompt-formula-for-slides/">formula article</a> covers the placeholder discipline in depth; it applies with double force here, because a document gives the AI enough context to make its inventions look specific.</p>
+
+      <h2>Numbers discipline: the paraphrase trap</h2>
+      <p>The extraction step quotes numbers with section references for a reason: the most common data error in AI-assisted decks isn't invention, it's paraphrase drift — the model rounds, converts units, or quietly swaps "quarterly" for "monthly", and the deck's number stops matching the document's. Check every number in the final deck against the extraction list, and the extraction list against the source, for the three to five numbers that carry the argument. Two minutes with the source table open; it's the cheapest credibility insurance in this whole method.</p>
+
+      <h2>A worked example: 12 pages → 10 slides</h2>
+      <p>The Q3 report from above, for the leadership audience, ended up with these titles:</p>
+      <ul>
+        <li>Q3 hit revenue targets but region C paid economics broke</li>
+        <li>Cost per acquisition in region C rose 38%, now 2.1× blended</li>
+        <li>Recommendation: pause region C paid, move $120k to retention</li>
+        <li>Month-2 churn in segment B is the leak — and it's fixable</li>
+        <li>What the retention investment buys: 1.4 points of churn by Q1</li>
+        <li>What we're not doing: cutting headcount or new-market plans</li>
+        <li>Risks of the pause: pipeline gap in November, mitigation planned</li>
+        <li>Decision and owner: approve today, CS lead runs the retention work</li>
+        <li>Appendix: region C economics, cohort chart, methodology</li>
+      </ul>
+      <p>Nine slides plus an appendix, from twelve pages. Methodology went to the appendix, the historical recap became one line of context in slide 1, the raw tables stayed in the document, and the deck got its decisions in the first three slides. Time: 4 minutes preparing, 6 extracting, 4 filtering, 15 generating and editing — 29 minutes for a deck that says what page 1 of the report took three pages to say.</p>
+
+      <h2>When the document is wrong</h2>
+      <p>The method assumes the document is a reliable source, and that assumption fails often enough to have its own step. Documents carry errors — last quarter's number pasted forward, a rounding mistake in a summary table, a conclusion the data on page 7 doesn't support — and the deck inherits them with the document's authority. Two checks catch most of it. The contradiction hunt from Step 2 ("flag any numbers that conflict with each other") catches internal inconsistencies, which are the common case. The spot-check catches the external kind: for the two numbers that carry the deck's argument, trace them to the source system, not to the document. When you find an error you can't resolve — two teams, two versions of the number — the deck presents the range and names the discrepancy instead of picking a side: "Revenue for the region is between $1.9M and $2.1M depending on how refunds are counted; we're standardizing the count this month." Rooms respect that sentence more than either number, because it proves the deck's author knows where the bodies are buried.</p>
+
+      <h2>Messy sources: PDFs, tables, scans</h2>
+      <p>Real documents arrive as PDFs with tables, and extraction quality varies with how the tables were made. Digital PDFs (text-selectable) extract well; scanned pages are images and need OCR first, with the OCR errors flowing into the extraction — so for scans, check the extracted numbers character by character, or better, get the original spreadsheet. Tables deserve a specific check regardless of source: ask the AI to quote the table row it's citing ("quote the row from table 4 you took the 38% from"), and compare against the actual PDF. The failure mode is quiet: the model reads a neighboring row or a subtotal as the data point, and the deck's number is plausible, adjacent, and wrong. For documents where the numbers are the story — board packs, financial reviews — the strongest workflow is hybrid: the AI extracts the narrative, you copy the tables yourself from the source file, and the two meet at the outline stage.</p>
+
+      <h2>A second worked example: meeting notes → decisions deck</h2>
+      <p>The method shrinks to five minutes for the smallest source. Two pages of messy meeting notes, audience: the people who missed the meeting. Step 1, one minute — nothing to strip from two pages. Step 2, one minute, with the extraction prompt trimmed to what a meeting contains: "From these notes, list: every decision made, every owner assigned, every open question, every date committed." Step 3 is one line — "they weren't there; they need what changed and what's theirs." Step 4, the outline is nearly automatic: five slides — decisions made, who owns what, open questions with owners, dates, and "what you need to do this week." Total: five slides from two pages, in about six minutes, and the deck is better than the notes because the notes recorded a conversation while the deck states its outcomes. This variant is worth running even when nobody will present: the deck format forces the extraction into decisions-and-owners, which is what absentees actually need and what raw notes never give them.</p>
+
+      <h2>Multi-document synthesis</h2>
+      <p>Often the source isn't one document but three: two team reports and a client email, or this quarter's report next to last quarter's for comparison. Extraction extends cleanly: "From these three documents, extract [the usual list], and mark each item with its document. Then flag: claims where the documents disagree, and topics only one document covers." The cross-document disagreement list is the step's real product — it's the map of whose numbers the meeting will fight about, surfaced before the outline instead of during the meeting. For the outline prompt, add the synthesis rule: "Where documents agree, treat it as established. Where they disagree, one slide states both positions with owners. Where only one document covers a point, flag it as preliminary." The deck that results is more honest than any single source, and rooms can tell — synthesis decks get decided, because they've already done the reconciling that the room would otherwise do out loud, slowly, with worse information.</p>
+
+      <h2>Extracting for a deck you won't present</h2>
+      <p>The method changes slightly when the deck travels without you — the review deck sent before the meeting, the memo deck forwarded to absentees. The audience filter gains a clause: "the reader will see this without a presenter, so every slide must stand alone." Compression loosens: slides may hold more words than a spoken deck needs, because the reader's eyes do the work your voice would have. What tightens is the recommendation slide: it must state the ask, the owner, and the deadline in one sentence, because there's no Q&amp;A to retrieve it from. And the appendix grows: in a self-standing deck, the appendix is where the skeptical reader goes instead of raising a hand, so the two hardest questions get real answers there — data, not summaries. The extraction is identical; the filter and the compression are where the no-presenter physics rewrite the rules.</p>
+
+      <h2>The pre-meeting send: a hybrid worth naming</h2>
+      <p>One hybrid format deserves its own paragraph because it's increasingly the norm: the deck sent the day before <em>and</em> presented live. The mistake teams make is sending the live deck, which either spoils the argument or confuses the pre-readers. The working pattern: send a trimmed pre-read — the same master with the recommendation slides kept and the evidence slides summarized — and open the live session with "you've seen the decision needed; the next ten minutes are the evidence." The pre-read is a repurposing job — the <a href="../repurpose-one-deck-many-assets/">master rule</a> applies: generate it from the master, don't hand-trim a copy that will drift. It changes the meeting's physics: the room arrives already knowing the ask, so live time goes to objections and the decision instead of exposition. Two assets, one source, better meeting — the whole system in miniature.</p>
+
+      <h2>Before you present</h2>
+      <ul>
+        <li>Every number traces back to the source document — not to the AI's paraphrase of it.</li>
+        <li>There is a recommendation slide that states the ask in one sentence, with an owner and a date.</li>
+        <li>The appendix covers the two hardest questions you expect.</li>
+        <li>Contradictions in the source were resolved or consciously managed, not ignored.</li>
+        <li>You know what you left out and why, because someone will ask — and it's in your notes, not your memory.</li>
+        <li>Titles read in order as the argument; if they read as a table of contents, back to Step 3.</li>
+      </ul>
+
+      <h2>Variants of the same method</h2>
+      <p><strong>Meeting notes → decisions deck.</strong> Extract decisions, owners, and open questions only; the deck is five slides and the meeting that produced the notes was the expensive part. Filter for the people who missed the meeting — they need decisions and their action items, not the discussion.</p>
+      <p><strong>Spec → stakeholder review deck.</strong> Extract scope, non-goals, open design decisions, and dependencies. The review deck's job is to surface decisions needed from the room, so those slides come first; the spec's happy path can be one diagram and a link back to the document.</p>
+      <p><strong>Research summary → webinar deck.</strong> Extract findings, the evidence behind each, and the caveats. Filter for what the audience can act on, and keep the caveats on the slides, not just the notes — a webinar has no appendix, and overclaiming to two hundred people is worse than underclaiming to twelve.</p>
+
+      <p>The deck ends up shorter than the document and says more. That's the entire point — and once you've done it twice, the method compresses to the point where the four prompts live in a snippet file and the whole job is an afternoon coffee long.</p>
+    </article>
+    <nav class="post-nav">
+      <a href="../ai-presentation-tools-compared/">← Previous</a>
+      <a class="next" href="../prompt-templates-by-type/">Next: 10 Prompt Templates →</a>
+    </nav>
+  </main>
+  <footer>© 2026 vuvi.org · Practical guides for making presentations with AI</footer>
+</body>
+</html>
